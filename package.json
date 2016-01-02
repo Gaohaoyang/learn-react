@@ -1,0 +1,30 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "do it",
+  "main": "entry.js",
+  "dependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-core": "^6.3.26",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaohaoyang/learn-react.git"
+  },
+  "keywords": [
+    "learn-react"
+  ],
+  "author": "Gao Haoyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gaohaoyang/learn-react/issues"
+  },
+  "homepage": "https://github.com/Gaohaoyang/learn-react#readme"
+}
