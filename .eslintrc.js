@@ -10,6 +10,8 @@ module.exports = {
       1, {
         "ignorePureComponents": true
       }
-    ]
+    ],
+    "import/no-unresolved": 1,
+    "import/extensions": 1
   }
 };
