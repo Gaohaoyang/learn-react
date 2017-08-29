@@ -6,7 +6,8 @@ import './index.css'
 // import Dog from './Dog'
 // import LikeButton from './11Props'
 // import Computer from './11Computer'
-import List from './12map'
+// import List from './12map'
+import LessonsList from './13PrintTitle'
 
 // class Index extends Component {
 //   render() {
@@ -45,7 +46,7 @@ import List from './12map'
 
 const Index = () => (
   <div>
-    <List />
+    <LessonsList />
   </div>
 )
 
