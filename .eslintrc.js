@@ -1,6 +1,13 @@
 module.exports = {
   "extends": "airbnb",
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
   "rules": {
+    "semi": [
+      2, "never"
+    ],
     "react/jsx-filename-extension": [
       1, {
         "extensions": [".js", ".jsx"]
@@ -8,10 +15,8 @@ module.exports = {
     ],
     "react/prefer-stateless-function": [
       1, {
-        "ignorePureComponents": true
+        "ignorePureComponents": false
       }
-    ],
-    "import/no-unresolved": 1,
-    "import/extensions": 1
+    ]
   }
 };

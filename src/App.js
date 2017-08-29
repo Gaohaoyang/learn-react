@@ -1,4 +1,3 @@
-/* eslint import/extensions: 1 */
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
